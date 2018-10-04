@@ -1,20 +1,28 @@
 # instaccept
 
-Super simple barebones Chrome Extension/Script.
+Super simple Chrome Extension/Script 💻
 
-What does it do?
-- 
-Simple. It does exactly what the name suggests. It accepts following requests.
-
-How does it work?
+What does it do? 😕
 -
-You got two options
-> Download/Clone this repo, package the contents as a .crx using [Chrome Extensions](https://support.google.com/chrome_webstore/answer/2664769?hl=en).
+It allows you to accept instagram 📸  follow 👣 requests
+
+How does it work? 🤔
+-
+There are 2️⃣  options available:
+
+> Download/Clone this repo.
+>
+> Package the contents as a .crx using [Chrome Extensions](https://support.google.com/chrome_webstore/answer/2664769?hl=en).
 
 or
 
-> Copy the contents of accept.js and copy them into your console.
+> Copy the content of accept.js.
+>
+> Copy content into your console.
 
+## Requirements
 You have to be on the Instagram website (logged in) in order for this script to work.
 
-The script is configured to wait 3 seconds between the first click and second click. This is to open the menu. After it opened the menu it accepts all requests at once. This is because the menu doesn't open that fast.
+## Technical Details
+- The script is configured to wait 3 seconds between the first and the second click. This is to open the menu. This was done to account for the menu UI lag.
+- After it opened the menu it accepts all requests at once.
