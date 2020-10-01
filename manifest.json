@@ -1,21 +1,15 @@
 {
   "name": "Instaccept",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 2,
-  "description": "Injecting stuff",
-  "homepage_url": "http://larsjere.me",
+  "description": "Automated follower request accept script for the Instagram",
+  "homepage_url": "https://github.com/LJeremy/instaccept",
   "background": {
-    "scripts": [
-      "background.js"
-    ],
+    "scripts": ["background.js"],
     "persistent": true
   },
   "browser_action": {
-    "default_title": "Inject!"
+    "default_title": "Accept!"
   },
-  "permissions": [
-    "https://*/*",
-    "http://*/*",
-    "tabs"
-  ]
+  "permissions": ["https://*/*", "http://*/*", "tabs"]
 }
